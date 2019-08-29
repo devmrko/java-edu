@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: java-edu
+    datasource:
+        driverClassName: org.postgresql.Driver
+        url: ${SPRING_DATASOURCE_URL}
+server:
+    port: 9000
